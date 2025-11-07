@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables
+.env
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / distribution files
+build/
+dist/
+*.egg-info/
+
+# SQL dumps or backups (optional)
+*.sql
+
+# Logs
+*.log
+
+# Docker files (optional)
+*.pid
+
+# Coverage / test files
+htmlcov/git ad
+.tox/
+.coverage
+.cache
+pytest_cache/
