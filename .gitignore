@@ -34,7 +34,7 @@ dist/
 *.pid
 
 # Coverage / test files
-htmlcov/git ad
+htmlcov/
 .tox/
 .coverage
 .cache

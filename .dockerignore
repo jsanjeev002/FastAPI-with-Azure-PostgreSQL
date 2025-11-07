@@ -26,6 +26,4 @@ Thumbs.db
 # SQL or backups (optional, if not needed in container)
 *.sql
 
-# Docker itself
-Dockerfile
-.dockerignore
+
