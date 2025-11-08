@@ -1,7 +1,6 @@
 # 🚀 FastAPI REST API with Azure PostgreSQL
 
-A RESTful API built using **FastAPI** and connected to an **Azure PostgreSQL** database.  
-Implements CRUD operations with proper environment configuration and modular code structure.
+FastAPI-based REST API integrated with Azure PostgreSQL and automated CI/CD pipeline using GitHub Actions, Docker, Azure Container Registry, and Azure Web App for seamless containerized deployment.
 
 ---
 
@@ -9,7 +8,7 @@ Implements CRUD operations with proper environment configuration and modular cod
 
 - **Framework:** FastAPI  
 - **Database:** Azure PostgreSQL  
-- **ORM:** SQLAlchemy / psycopg2 (adjust if you use another)  
+- **ORM:** SQLAlchemy (adjust if you use another)  
 - **Language:** Python 3.x  
 - **Hosting:** Azure App Service (optional)
 
@@ -41,17 +40,17 @@ project_root/
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
-2️⃣ Create Virtual Environment
+### 2️⃣ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate    # on Windows
 source venv/bin/activate # on Mac/Linux
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Add Environment Variables
+### 4️⃣ Add Environment Variables
 Create a .env file:
 DATABASE_URL=postgresql://<username>:<password>@<azure-host>:5432/<dbname>
 
-5️⃣ Run the Server
+### 5️⃣ Run the Server
 uvicorn app.main:app --reload
