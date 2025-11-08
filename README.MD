@@ -1,6 +1,7 @@
 # 🚀 FastAPI REST API with Azure PostgreSQL
 
 FastAPI-based REST API integrated with Azure PostgreSQL and automated CI/CD pipeline using GitHub Actions, Docker, Azure Container Registry, and Azure Web App for seamless containerized deployment.
+This project demonstrates a full production-grade REST API built with FastAPI and PostgreSQL (Azure Database for PostgreSQL) as the backend. The application is containerized using Docker and fully automated with a CI/CD pipeline powered by GitHub Actions. The pipeline builds and pushes Docker images to Azure Container Registry (ACR) and automatically deploys the containerized API to Azure Web App for Containers. This setup ensures consistent builds, automated deployments, and scalable cloud infrastructure—ideal for modern backend service delivery
 
 ---
 
