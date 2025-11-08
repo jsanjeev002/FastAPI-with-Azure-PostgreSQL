@@ -28,7 +28,7 @@ jobs:
         run: az acr login --name ${{ secrets.AZURE_REGISTRY_NAME }}
 
       # ✅ Build + tag Docker image properly
-      - name: Build Docker image
+      - name: Build Docker image 
         run: |
           docker build -t $REGISTRY/$IMAGE_NAME:latest -t $REGISTRY/$IMAGE_NAME:$TAG .
 
