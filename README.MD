@@ -39,25 +39,18 @@ project_root/
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-```bash
 
 ### 2️⃣ Create Virtual Environment
-```bash
 python -m venv venv
 venv\Scripts\activate    # on Windows
 source venv/bin/activate # on Mac/Linux
-```bash
 
 ### 3️⃣ Install Dependencies
-```bash
 pip install -r requirements.txt
-```bash
 
 ### 4️⃣ Add Environment Variables
 Create a .env file:
 DATABASE_URL=postgresql://<username>:<password>@<azure-host>:5432/<dbname>
 
 ### 5️⃣ Run the Server
-```bash
 uvicorn app.main:app --reload
-```bash
